@@ -41,14 +41,14 @@ class AccessToken
             );
         }
 
-        $this->accessToken = $options['access_token'];
+        $this->access_token = $options['access_token'];
 
         if (!empty($options['uid'])) {
             $this->uid = $options['uid'];
         }
 
         if (!empty($options['refresh_token'])) {
-            $this->refreshToken = $options['refresh_token'];
+            $this->refresh_token = $options['refresh_token'];
         }
 
         // We need to know when the token expires. Show preference to
@@ -72,6 +72,6 @@ class AccessToken
      */
     public function __toString()
     {
-        return (string) $this->accessToken;
+        return (string) $this->access_token;
     }
 }
