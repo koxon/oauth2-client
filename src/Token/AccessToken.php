@@ -9,7 +9,7 @@ class AccessToken
     /**
      * @var  string  accessToken
      */
-    public $accessToken;
+    public $access_token;
 
     /**
      * @var  int  expires
@@ -19,7 +19,7 @@ class AccessToken
     /**
      * @var  string  refreshToken
      */
-    public $refreshToken;
+    public $refresh_token;
 
     /**
      * @var  string  uid
